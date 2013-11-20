@@ -164,7 +164,7 @@ constexpr ull_t hash(const ull_t seed, const char * str, const std::size_t size)
         finalizer(
             fxor(
                 do_tail(
-                    size != 0 ?
+                    size >= sizeof (ull_t) ?
                         do_blocks(seed, str, size & ((ull_t)-1 << sizeof (ull_t))) :
                         seed,
                     str + (size & ((ull_t)-1 << sizeof (ull_t))),

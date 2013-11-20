@@ -35,6 +35,7 @@ int main()
     std::cout << std::hex;
     std::cout << "[empty string] - " << ""_hash << std::endl;
     std::cout << "[space] - " << " "_hash << std::endl;
+    std::cout << "foo - " << "foo"_hash << std::endl;
     std::cout << "Hello world! - " << "Hello world!"_hash << std::endl;
     std::cout << "Hello World! - " << "Hello World!"_hash << std::endl;
     std::cout << "HELLO WORLD! - " << "HELLO WORLD!"_hash << std::endl;
