@@ -1,7 +1,7 @@
 static-string-hash
 ==================
 
-compile-time string hashing, based on murmurhash.
+compile-time 64-bit string hashing, based on murmurhash3.
 
 With C++11 constexpr and user-defined-literals facilities it is possible
 to create compile-time string hashing functions.
