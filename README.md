@@ -18,3 +18,4 @@ r2 := 27
 m := 5
 n := 0x52dce729
 I haven't evaluated whether this set makes sense, so use it at your own risk...
+The finalizer part was taken entirely from murmurhash3-128.
